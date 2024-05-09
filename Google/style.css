@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  height: 703.2px;
+}
+
+.container .header {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container .header a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 8px;
+}
+.container .header a span {
+  color: #5f6368;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.container .header a .app span {
+  width: 40px;
+  height: 40px;
+}
+.container .header a span:hover {
+  background-color: rgb(234, 234, 234);
+  border-radius: 50%;
+}
+.container .header a:hover {
+  text-decoration: underline;
+}
+
+.container .top {
+  width: 100%;
+  height: 33.85%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.container .top .logo img {
+  width: 272px;
+  height: 92px;
+  margin-bottom: 35px;
+}
+
+.container .middle {
+  width: 100%;
+  height: 8.5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .middle .input {
+  width: 561px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .middle .input .put {
+  width: 561px;
+  height: 44px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 0;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
+  outline: 0;
+  padding: 0 50px;
+  font-family: "Segoe UI";
+  background-color: rgb(255, 255, 255);
+}
+.container .middle .input span {
+  position: absolute;
+  left: 18px;
+  font-size: 20px;
+  color: #5f6368;
+}
+.container .middle .input .voice {
+  position: absolute;
+  right: 55px;
+}
+.container .middle .input .lens {
+  position: absolute;
+  right: 20px;
+}
+
+.container .bottom {
+  width: 100%;
+  height: 33.55%;
+  font-family: "Segoe UI";
+  font-size: 13px;
+}
+.container .bottom .box {
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .bottom .box a {
+  text-decoration: none;
+  color: black;
+}
+.container .bottom .box a:hover {
+  background-color: rgb(225, 227, 225);
+  border-radius: 4px;
+}
+.container .bottom .box .short .shortcut {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .bottom .box .short .shortcut .cut {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(211, 227, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .bottom .box .short .shortcut p {
+  margin-top: 15px;
+}
+.container .bottom .box .web .webstore {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .bottom .box .web .webstore .store {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(225, 227, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .bottom .box .web .webstore p {
+  margin-top: 15px;
+}
+
+.container .footer {
+  width: 100%;
+  height: 16.1%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.container .footer .custom {
+  width: 165px;
+  height: 32px;
+  background-color: rgb(211, 227, 253);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.container .footer .custom a {
+  font-family: "Segoe UI";
+  font-size: 13px;
+  text-decoration: none;
+  color: #041e49;
+}
+.container .footer .custom span {
+  font-size: 16px;
+  padding-right: 5px;
+}
+.container .footer .custom:hover {
+  background-color: rgb(185, 200, 222);
+} /*# sourceMappingURL=style.css.map */

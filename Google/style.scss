@@ -1,0 +1,33 @@
+$backgroundcolor: rgb(255, 255, 255);
+$searchcolor: rgb(255, 255, 255);
+$font: "Segoe UI";
+
+@mixin vasatchin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $backgroundcolor;
+}
+
+.container {
+  width: 100%;
+  height: 703.2px;
+}
+
+@import "header-top.scss";
+
+@import "middle.scss";
+
+@import "bottom.scss";
+
+@import "footer.scss";
+ 
