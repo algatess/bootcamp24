@@ -1,0 +1,248 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "B Yekan", tahoma, arial;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  flex-flow: row-reverse wrap;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+}
+.header .left a {
+  text-decoration: none;
+  color: #288ed9;
+  margin-left: 30px;
+}
+.header .left a:hover {
+  color: black;
+}
+.header .left .log {
+  text-decoration: none;
+  width: 60px;
+  color: white;
+  background-color: #288ed9;
+  border-radius: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 17px;
+}
+.header .left .log:hover {
+  background-color: #005fc8;
+}
+
+.header .right {
+  display: flex;
+  width: 65%;
+  align-items: center;
+}
+.header .right .menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header .right .menu a {
+  text-decoration: none;
+  padding: 20px 40px;
+  color: gray;
+  font-size: 17px;
+}
+.header .right .menu a:hover {
+  background-color: lightgray;
+  color: black;
+  border-radius: 40px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.introduction .right {
+  margin: 50px 20px 10px;
+}
+.introduction .right h1 {
+  color: #288ed9;
+}
+.introduction .right .info {
+  color: #288ed9;
+  margin-top: 12px;
+}
+.introduction .right p {
+  margin-top: 12px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.total {
+  background: linear-gradient(to bottom, rgb(214, 238, 255, 0) 0, #d6eeff 100%);
+  margin-top: 100px;
+}
+.title {
+  text-align: center;
+}
+.information {
+  display: flex;
+}
+.information .item {
+  margin: 80px 20px 100px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  position: relative;
+}
+.information .item h2 {
+  background-color: #288ed9;
+  width: 150px;
+  color: white;
+  position: absolute;
+  margin: auto;
+  top: -20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 20px;
+}
+.information .item p {
+  padding: 40px 15px 20px;
+  text-align: justify;
+}
+
+.feature1 {
+  display: flex;
+  align-items: center;
+  margin: 60px 30px;
+}
+.feature1 .left {
+  width: 50%;
+  padding: 20px;
+}
+.feature1 .left img {
+  width: 700px;
+  height: 550px;
+}
+
+.feature1 .right h1 {
+  color: #288ed9;
+}
+.feature1 .right p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.feature2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 60px 30px;
+}
+.feature2 .left {
+  width: 50%;
+  padding: 20px;
+}
+.feature2 .left img {
+  width: 750px;
+  height: 500px;
+}
+
+.feature2 .right h1 {
+  color: #288ed9;
+}
+.feature2 .right p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.feature3 {
+  display: flex;
+  align-items: center;
+  margin: 60px 30px;
+}
+.feature3 .left {
+  width: 50%;
+  padding: 20px;
+}
+.feature3 .left img {
+  width: 750px;
+  height: 500px;
+}
+
+.feature3 .right h1 {
+  color: #288ed9;
+}
+.feature3 .right p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.feature4 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 60px 30px;
+}
+.feature4 .left {
+  width: 50%;
+  padding: 20px;
+}
+.feature4 .left img {
+  width: 750px;
+  height: 500px;
+}
+
+.feature4 .right h1 {
+  color: #288ed9;
+}
+.feature4 .right p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.footer {
+  border-top: solid 1px gray;
+  color: #7e7e7e;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer .social {
+  font-size: 30px;
+}
+.footer .social i {
+  padding: 10px;
+}
+.footer .social a {
+  color: inherit;
+}
+.footer .social i:hover {
+  color: black;
+}
+.footer p {
+  color: #7e7e7e;
+}
+
+

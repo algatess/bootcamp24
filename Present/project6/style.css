@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "lalezar";
+  src: url("font/Lalezar-Regular.ttf") format("truetype"),
+    url("font/Lalezar-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "yekan";
+  src: url("font/BYekan+.ttf") format("truetype");
+}
+body {
+  font-family: yekan;
+}
+.header {
+  background: black url("image/headerg.jpg") no-repeat center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  height: 500px;
+  text-align: center;
+  color: white;
+}
+.bookmark {
+  list-style-type: none;
+}
+.book {
+  display: inline-block;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.book:hover {
+  color: orange;
+}
+.title {
+  font-size: 60px;
+  margin-top: 80px;
+  font-family: lalezar;
+}
+span {
+  color: orange;
+}
+.desc {
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  line-height: 45px;
+  border: solid white 1px;
+  border-radius: 30px;
+}
+
+.member {
+  text-align: center;
+  padding: 40px 30px;
+}
+.member h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.memberlist {
+  list-style-type: none;
+}
+.memberitem {
+  display: inline-block;
+  width: 425px;
+  margin: 20px;
+  box-shadow: 0 0 10px gray;
+}
+.memberpic {
+  width: 100%;
+}
+.name {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.bio {
+  text-align: justify;
+  padding: 20px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.about {
+  background: #3d3b3b url("image/aboute.jpg") no-repeat center;
+  background-blend-mode: overlay;
+  height: 550px;
+  background-size: cover;
+  padding: 25px;
+  text-align: center;
+}
+.circle {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(135, 135, 135, 0.5);
+  border-radius: 50%;
+  margin: auto;
+  padding: 50px;
+  color: white;
+}
+.circle h2 {
+  font-size: 25px;
+  color: orange;
+}
+.circle p {
+  text-align: justify;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.footer {
+  height: 250px;
+  background-color: lightgray;
+  padding-top: 75px;
+  text-align: center;
+}
+.foot {
+  height: 100px;
+  background-color: gray;
+  padding: 7px;
+}
+.foot img {
+  width: 85px;
+  height: 85px;
+}
+.footer p {
+  font-size: 20px;
+  margin-top: 20px;
+}
