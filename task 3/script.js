@@ -1,18 +1,28 @@
+const form = document.getElementById("form");
+const okButton = document.getElementById("ok");
+const textOutput = document.getElementById("text-output");
+
+// Define functions
 function showForm() {
-    var form = document.getElementById('form');
-    form.style.display = 'block';
-    document.getElementById("form").style.display = "block";
-    document.getElementById("text-output").style.display = "none";
-  }
-  document.getElementById("ok").addEventListener("click", showForm);
-  document.getElementById('ok').addEventListener('click' , function() {this.style.display = 'none';});
-  document.getElementById('ok').addEventListener('click' , function() {this.textContent = newText; this.style.display = 'block'; }) 
-  document.getElementById("form").addEventListener("submit", function(event) {event.preventDefault();
-  var text = document.querySelector(".text").value;
-  document.getElementById("text-output").textContent = "your request has been successfully completed" + text;
-  document.getElementById("form").style.display = "none";
-  document.getElementById("ok").style.display = "block";
-  document.getElementById("text-output").style.display = "block";
-  document.getElementById("ok").addEventListener("click", function () {
-  this.style.display = "none";});
-  });
+  form.style.display = "block";
+  okButton.style.display = "none";
+  textOutput.style.display = "none";
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  const text = document.querySelector(".text").value;
+  textOutput.textContent = `Your request has been successfully completed ${text}`;
+  form.style.display = "none";
+  okButton.style.display = "block";
+  textOutput.style.display = "block";
+  okButton.addEventListener("click", hideOkButton);
+}
+
+function hideOkButton() {
+  okButton.style.display = "none";
+}
+
+// Add event listeners
+okButton.addEventListener("click", showForm);
+form.addEventListener("submit", handleSubmit);
