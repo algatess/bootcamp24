@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calcu{
+    width: 400px;
+    height: 500px;
+    background-color: lightgray;
+    margin: 100px auto;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    width: 400px;
+    height: 88px;
+    border: 10px solid;
+    background-color: white;
+    border-radius: 20px 20px 0  0;
+}
+#dis{
+    width:380px;
+    height: 65px;
+    outline: 0;
+    border: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    font-size: 30px;
+    color: gray;
+}
+
+.body{
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    box-shadow: 10px 0 10px gray , -10px 0 10px gray
+    
+}
+.body button{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin:5px 10px;
+    border: 0;
+    font-size: 35px;
+}
+.body button:hover{
+    background-color: gray;
+}
+
+.foot{
+    width: 400px;
+    height:90px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px ;
+    border-top: 2px solid;
+}
+.foot button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 7px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: orange;
+    border: 5px solid ;
+}
+.foot button:hover{
+    background-color: orangered;
+}
